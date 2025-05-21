@@ -1,0 +1,23 @@
+# NAME: 直连列表
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-05-21 16:14:51
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 179
+# IP-CIDR: 2
+# IP-CIDR6: 1
+# TOTAL: 183
+payload:
+  - DOMAIN,canva.com
+  - DOMAIN,google.com
+  - DOMAIN,dyndns.com
+  - DOMAIN,909086.xyz
+  - DOMAIN,btschool.club
+  - DOMAIN,carpt.net
+  - DOMAIN,pttime.org
+  - DOMAIN,kufei.org
+  - DOMAIN,njtupt.top
+  - DOMAIN,raingfh.top
+  - DOMAIN,douyucdn.cn
+  - DOMAIN,douyucdn2.cn
+  - DOMAIN,location.services.mozilla.com
