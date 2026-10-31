@@ -1,9 +1,13 @@
 payload:
-  # 索尼国行语音与服务放行（走直连）
+  # 语音与播控鉴权核心域名（重点放行）
+  - DOMAIN,vvoice.play.t002.ottcn.com
+  - DOMAIN,othstr.play.t002.ottcn.com
+  - DOMAIN,btrace.play.t002.ottcn.com
+  - DOMAIN-SUFFIX,play.t002.ottcn.com
+  - DOMAIN-SUFFIX,ottcn.com
+  - DOMAIN,api.installer.xiaomi.com
+  
+  # 配合之前的腾讯语音接口
   - DOMAIN-SUFFIX,voice.qq.com
   - DOMAIN-SUFFIX,dialog.voice.qq.com
-  - DOMAIN-SUFFIX,asr.voice.qq.com
-  - DOMAIN-SUFFIX,tv.aisee.tv
-  - DOMAIN-SUFFIX,aiseet.atianqi.com
-  - DOMAIN-KEYWORD,voice.qq
-  - DOMAIN-KEYWORD,aisee
+  - DOMAIN-SUFFIX,aisee.tv
