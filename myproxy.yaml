@@ -8,6 +8,27 @@
 # IP-CIDR6: 1
 # TOTAL: 183
 payload:
+  # 统一身份认证与个人网关
+  - DOMAIN,singlelogin.re
+  - DOMAIN,singlelogin.rs
+  - DOMAIN,singlelogin.me
+
+  # 官方主站、常见活动镜像与下载网关
+  - DOMAIN,z-library.rs
+  - DOMAIN,z-lib.gs
+  - DOMAIN,z-lib.id
+  - DOMAIN,z-lib.io
+  - DOMAIN,zlib.re
+  - DOMAIN,zlib.by
+  - DOMAIN,1lib.sk
+  - DOMAIN,1lib.domains
+  - DOMAIN,openzlib.link
+
+  # 核心图书下载与文件分发 CDN 节点
+  - DOMAIN,dl.zlibrary.to
+  - DOMAIN,dl.z-lib.gs
+  - DOMAIN,dl.z-lib.id
+  - DOMAIN,bookcdn.net
+  - DOMAIN,zlibcdn.com
+  - DOMAIN,zlibcdn2.com
   - DOMAIN,canva.com
-  - DOMAIN,google.com
- 
