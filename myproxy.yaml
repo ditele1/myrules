@@ -13,18 +13,23 @@ payload:
   - DOMAIN,singlelogin.rs
   - DOMAIN,singlelogin.me
 
-  # 官方主站、常见活动镜像与下载网关
-  - DOMAIN,z-library.rs
-  - DOMAIN,z-lib.gs
-  - DOMAIN,z-lib.id
-  - DOMAIN,z-lib.io
-  - DOMAIN,zlib.re
   - DOMAIN,zlib.by
-  - DOMAIN,834101.ru
   - DOMAIN,z-lib.fo
-  - DOMAIN,ncdn.ec
-  - DOMAIN,1lib.sk
-  - DOMAIN,1lib.domains
+  - DOMAIN,z-lib.gd
+  - DOMAIN,z-lib.gl
+  - DOMAIN,s3proxy-alp.cdn-zlib.sk
+
+  # 2. 泛域名与二级后缀全量匹配
+  - DOMAIN-SUFFIX,cdn-zlib.sk
+  - DOMAIN-SUFFIX,zlib.by
+  - DOMAIN-SUFFIX,z-lib.fo
+  - DOMAIN-SUFFIX,z-lib.gd
+  - DOMAIN-SUFFIX,z-lib.gl
+
+  # 3. 关键字兜底匹配（涵盖动态 CDN 与未来新增国别后缀）
+  - DOMAIN-KEYWORD,z-lib
+  - DOMAIN-KEYWORD,zlib
+  - DOMAIN-KEYWORD,cdn-zlib
   - DOMAIN,openzlib.link
 
   # 核心图书下载与文件分发 CDN 节点
